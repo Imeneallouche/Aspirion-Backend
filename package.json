@@ -1,0 +1,25 @@
+{
+  "name": "aspirion-backend",
+  "version": "1.0.0",
+  "description": "In order to practise on socket.io , here is a website for Realtime chat developed using MERN (MongoDB, Express, React and Node.js) in addition to socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imeneallouche/Aspirion-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imeneallouche/Aspirion-Backend/issues"
+  },
+  "homepage": "https://github.com/Imeneallouche/Aspirion-Backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
+}
