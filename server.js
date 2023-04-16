@@ -8,4 +8,8 @@ app.get("/", (req, res) => {
   res.send("API is running on the root");
 });
 
+app.get("/api/chat", (req, res) => {
+  res.send(chats);
+});
+
 app.listen(PORT, console.log(`SERVER IS RUNNING ON PORT ${PORT}`));
